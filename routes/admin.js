@@ -22,3 +22,4 @@ router.put("/user/:id", isAuth, isAdmin, updateRole);
 router.get("/users", isAuth, isAdmin, getAllUser);
 
 export default router;
+
